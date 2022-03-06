@@ -1,0 +1,19 @@
+/* 
+    Comentários em CSS 
+*/
+
+/* Anatomia do CSS */
+h1 /* Seletor */{
+    /* propriedade: valor; */
+    color: blue;
+    font-size: 30px;
+    background: purple;
+} /* {Declaração} */
+
+/* 
+seletor {
+    propriedade: valor
+}
+
+tudo dentro do {} é a declaração
+*/
