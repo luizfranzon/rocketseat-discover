@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        /* 
+            box-sizing não definido, portanto não
+            está respeitando o valor definido de width
+        */
+        .caixa1 {
+            width: 100px;
+            height: 100px;
+            border: 1px solid red;
+            margin: 10%;
+            padding: 0 20px;
+        }
+
+        /* 
+            box-sizing respeitando o width definido
+        */
+        .caixa2 {
+            width: 100px;
+            height: 100px;
+            border: 1px solid rgb(0, 110, 255);
+            margin: 10%;
+            padding: 0 20px;
+            box-sizing: border-box;
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class="caixa1">
+        CSS é incrivel!
+        <b>Caixa1</b>
+    </div>
+
+    <div class="caixa2">
+        CSS é incrivel!
+        <b>Caixa2</b>
+    </div>
+
+    
+</body>
+</html>
