@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Layout</title>
+
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+
+            display: grid;
+            grid-template-areas: 
+            "header header" 
+            "main aside" 
+            "footer footer";
+
+            grid-template-rows: 40px 1fr 40px;
+            grid-template-columns: 1fr 150px;
+        }
+
+        header {
+            grid-area: header;
+            background-color: red;
+        }
+
+        main {
+            grid-area: main;
+            background-color: blueviolet;
+        }
+
+        aside {
+            grid-area: aside;
+            background-color: blue;
+        }
+
+        footer {
+            grid-area: footer;
+            background-color: aquamarine;
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        Topo
+    </header>
+
+    <main>
+        Conteúdo
+    </main>
+
+    <aside>
+        Indos Adicionais
+    </aside>
+
+    <footer>
+        Rodapé
+    </footer>
+</body>
+</html>
