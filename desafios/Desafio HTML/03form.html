@@ -6,6 +6,45 @@
     <title>Formulário de contato</title>
 </head>
 <body>
-    <a href="01nav.html">Voltar</a>
+    <a href="01nav.html">Voltar</a><br>
+    <br>
+    
+    <form action="">
+        <fieldset>
+            <legend>Entre em contato</legend>
+
+            <label for="select"><strong>Assunto:</strong></label>
+            <select name="subject" id="select" list="options">
+                <datalist id="options">
+                    <option value="suport">Suporte</option>
+                    <option value="complaint">Reclamação</option>
+                    <option value="sugestion">Seguestão</option>
+                </datalist>
+            </select><br>
+        
+            <br>
+
+            <label for=""><strong>Nome Completo:</strong></label><br>
+            <input type="text" placeholder="Seu nome"><br>
+            <br>
+
+            <label for="email"><strong>E-mail:</strong></label><br>
+            <input type="text" name="email" id="email" placeholder="email@seudominio.com"><br>
+            <br>
+
+            <label for="message"><strong>Mensagem:</strong></label><br>
+            <textarea name="message" id="message" cols="30" rows="10"></textarea><br>
+            <br>
+
+            <input type="checkbox" name="acceptnews" id="acceptnews">
+            <label for="acceptnews">Aceito receber novidades por e-mail</label><br>
+            
+            
+            <br>
+
+            <button>Enviar</button>
+
+        </fieldset>
+    </form>
 </body>
 </html>
