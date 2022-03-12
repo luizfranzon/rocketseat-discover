@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras Tags</title>
+
+    <style>
+        @import url(https://fonts.googleapis.com/css?family=Lato:100,100italic,300,300italic,regular,italic,700,700italic,900,900italic);
+
+        h1 {
+            font-size: 40px;
+        }
+        * {
+            font-family: Lato;
+        }
+        label, select {
+            
+            font-size: 20px;
+        }
+
+        [type="checkbox"] {
+            width: 20px;
+            height: 20px;
+        }
+
+        legend {
+            font-size: 25px;
+        }
+
+        textarea {
+            font-size: 25px;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Outras tags</h1>
+    <hr><br>
+
+    <label for=""><b>- Checkbox:</b></label><br>
+    <label for="checkbox">Deseja receber e-mails?</label>
+    <input id="checkbox" type="checkbox" checked>
+    <br><br>
+
+    <form action="">
+        <fieldset>
+            <legend><b>Interesses</b></legend>
+
+            <input type="checkbox" name="interesses" id="check1">
+            <label for="check1">Music</label><br>
+
+            <input type="checkbox" name="interesses" id="check2">
+            <label for="check2">Games</label><br>
+            
+            <input type="checkbox" name="interesses" id="check3">
+            <label for="check3">Coding</label><br>
+        </fieldset>
+    </form><br>
+
+    <label for=""><b>- Radio:</b></label>
+
+    <form action="">
+        <fieldset>
+            <legend>Quer namorar comigo?</legend>
+
+            <input type="radio" name="namorar" id="namorarn" checked value="nao">
+            <label style="font-size: 20px;" for="namorarn">Não!</label>
+            
+            <input style="margin-left: 20px;" type="radio" name="namorar" id="namorarnn" value="eunao">
+            <label style="font-size: 20px;" for="namorarnn">Eu não!</label>
+
+        </fieldset>
+    </form><br>
+
+    <label for=""><b>- Textarea:</b></label><br>
+    <textarea name="" id="" cols="25" rows="5" placeholder="Insira sua mensagem"></textarea><br><br>
+
+    <label for=""><b>- Select:</b></label><br>
+    <select name="" id="">
+        <option value="eunao">Eu não</option>
+        <option value="eusim">Eu sim</option>
+        <option value="nao">Não</option>
+        <option value="sim">Sim</option>
+        <option value="claroquenao">Claro! que não</option>
+    </select>
+
+
+</body>
+</html>
