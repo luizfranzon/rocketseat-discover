@@ -14,18 +14,27 @@
         * {
             font-family: Lato;
         }
-        label, select {
+        label, [type="search"]{
             
+            font-size: 25px;
+        }
+
+        select, [type="number"], [type="datetime-local"] {
             font-size: 20px;
         }
 
-        [type="checkbox"] {
+        [type="range"] {
+            width: 300px;
+            height: 30px;
+        }
+
+        [type="checkbox"], {
             width: 20px;
             height: 20px;
         }
 
         legend {
-            font-size: 25px;
+            font-size: 20px;
         }
 
         textarea {
@@ -62,7 +71,7 @@
 
     <form action="">
         <fieldset>
-            <legend>Quer namorar comigo?</legend>
+            <legend><b>Quer namorar comigo?</b></legend>
 
             <input type="radio" name="namorar" id="namorarn" checked value="nao">
             <label style="font-size: 20px;" for="namorarn">Não!</label>
@@ -78,13 +87,45 @@
 
     <label for=""><b>- Select:</b></label><br>
     <select name="" id="">
-        <option value="eunao">Eu não</option>
-        <option value="eusim">Eu sim</option>
-        <option value="nao">Não</option>
-        <option value="sim">Sim</option>
-        <option value="claroquenao">Claro! que não</option>
-    </select>
 
+        <optgroup label="eu sim e eu não">
+            <option value="eunao" disabled>Eu não</option>
+            <option value="eusim">Eu sim</option>
+        </optgroup>
+
+        <optgroup label="o resto">
+            <option value="nao">Não</option>
+            <option value="sim">Sim</option>
+            opt<option value="claroquenao">Claro! que não</option>
+        </optgroup>
+    </select><br><br>
+
+    <label><strong>- Search:</strong></label><br>
+
+    <form action="">
+        <input type="search" name="pesquisa"
+        placeholder="Digite o ID"
+        title="Digite o ID de 5 digitos: 01658"
+        pattern="[0-9]{5}"
+        maxlength="5"
+        minlength="5"
+        size="10">
+        <button style="font-size: 20px; margin-left: 10px;">Pesquisar</button>
+    </form><br>
+
+    <label for=""><b>- Number:</b></label><br>
+    <input type="number" min="2" max="10" value="2" step="2"><br>
+    <br>
+
+    <label><strong>- Range:</strong></label><br>
+    <input type="range" name="" id="" min="-10" max="20" step="5">
+    <br>
+
+    <label><b>- Time:</b></label><br>
+    <input type="datetime-local">
+    
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> 
+    <!--Eu sei que ta errado isso aqui, mas é mais facil por agora :P -->
 
 </body>
 </html>
