@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+
+    <style>
+        @import url(https://fonts.googleapis.com/css?family=Lato:100,100italic,300,300italic,regular,italic,700,700italic,900,900italic);
+        * {
+            font-family: Lato, sans-serif;
+        }
+        input, textarea {
+            margin-bottom:20px;
+        }
+        fieldset {
+            width: 1px;
+            background-color: #8debde;
+            border: 2px solid #149483;
+            border-radius: 4px;
+        }
+        label,button {
+            font-weight: bold;
+        }
+        legend {
+            background-color: #149483;
+            border-radius: 4px;
+            color: #8debde;
+        }
+    </style>
+</head>
+<body>
+    <form action="https://jkorpela.fi/cgi-bin/echo.cgi" method="POST">
+        <fieldset>
+            <legend><strong>Contato</strong></legend>
+
+            <Label for="nome">Nome:</Label><br>
+            <input id="nome" name="nome" type="text" placeholder="Insira seu nome" required><br>
+
+            <label for="email">Email:</label><br>
+            <input id="email" name="email" type="email" placeholder="exemplo@email.com" required><br>
+
+            <label for="mensagem">Mensagem:</label><br>
+            <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Sua mensagem :)" required></textarea><br>
+
+            <button type="submit">Enviar</button>
+        </fieldset>
+    </form>
+</body>
+</html>
