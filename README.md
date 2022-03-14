@@ -1,4 +1,4 @@
-<h1>Discover Rocketseat</h1>
+### Trilha Discover Rocketseat
 
 <br>
 
