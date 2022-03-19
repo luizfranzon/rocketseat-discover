@@ -9,7 +9,7 @@ O <a href="https://app.rocketseat.com.br/discover">Discover</a> é uma jornada, 
 ### Desafios Concluidos 2/16
 
 - <a target="_blank" href="https://luizfranzon.github.io/rocketseat-discover/desafios/Desafio%20HTML/01nav.html">**Desafios HTML**</a> ✔️
-- <a target="_blank" href="https://luizfranzon.github.io/rocketseat-discover/desafios/Social%20Tree/index.html">**"Social Tree"**</a> ✔️
+- <a target="_blank" href="https://luizfranzon.github.io/rocketseat-discover/desafios/Social%20Tree/index.html">**Social Tree**</a> ✔️
 - **RocketCoffee**
 - **RocketBlog**
 - **Rocket NFTs**
