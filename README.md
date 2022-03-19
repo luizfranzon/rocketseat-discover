@@ -6,8 +6,6 @@ O <a href="https://app.rocketseat.com.br/discover">Discover</a> é uma jornada, 
 
 <img src="/media/imagens/discover-header.png" alt="">
 
-<br>
-
 ### Desafios Concluidos 2/16
 
 - <a target="_blank" href="https://luizfranzon.github.io/rocketseat-discover/desafios/Desafio%20HTML/01nav.html">**Desafios HTML**</a> ✔️
