@@ -1,0 +1,73 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+
+    font-family: Poppins, sans-serif;
+}
+
+body {
+    background-color: #d9f2ff;
+}
+
+.profile-pic {
+    display: block;
+    margin: auto;
+
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+
+    border: solid 4px #2691c2;
+    padding: 3px;
+    margin-top: 80px;
+    
+}
+
+.instagram {
+    color: #2691c2;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.link-buttons-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+
+.link-buttons {
+    width: 300px;
+    height: 50px;
+    display: block;
+    margin: auto;
+
+    text-align: center;
+    line-height: 45px;
+    border: 3px #2691c2 solid;
+    border-radius: 5px;
+
+    color: #2691c2;
+    font-weight: 500;
+}
+
+.social-media-section {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 35px;
+}
+
+.social-media-buttons {
+    display: inline;
+    margin: auto;
+    width: 60px;
+    height: 60px;
+}
