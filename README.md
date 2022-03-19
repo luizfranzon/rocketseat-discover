@@ -24,3 +24,5 @@ O <a href="https://app.rocketseat.com.br/discover">Discover</a> é uma jornada, 
 - **"Sidebar"**
 - **"Countdown"**
 - **"Portfolio"**
+
+**#NeverStopLearning** **#KeepCoding**
