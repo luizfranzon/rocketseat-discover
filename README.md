@@ -6,21 +6,21 @@ O <a href="https://app.rocketseat.com.br/discover">Discover</a> é uma jornada, 
 
 <!-- <img src="/media/imagens/imagem.png" alt=""> -->
 
-#### Desafios Concluidos 2/16
+### Desafios Concluidos 2/16
 
-- Desafios HTML
-- Desafio "Social Tree"
-- Desafio "RocketCoffee"
-- Desafio "RocketBlog"
-- Desafio "Rocket NFTs"
-- Desafio "RocketShoes"
-- Desafio "Login Form CSS"
-- Desafio "Pricing Table"
-- Desafio "Theme Switcher"
-- Desafio "Rocketcard"
-- Desafio "Rocketflix"
-- Desafio "Página de Receita"
-- Desafio "RocketNews"
-- Desafio "Sidebar"
-- Desafio "Countdown"
-- Desafio "Portfolio"
+- Desafios HTML ✔️
+- "Social Tree" ✔️
+- "RocketCoffee"
+- "RocketBlog"
+- "Rocket NFTs"
+- "RocketShoes"
+- "Login Form CSS"
+- "Pricing Table"
+- "Theme Switcher"
+- "Rocketcard"
+- "Rocketflix"
+- "Página de Receita"
+- "RocketNews"
+- "Sidebar"
+- "Countdown"
+- "Portfolio"
