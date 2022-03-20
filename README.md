@@ -5,11 +5,6 @@ O <a href="https://app.rocketseat.com.br/discover">Discover</a> é uma módulo d
 ### Desafios Concluidos: 2/16
 
 <table>
-<thead>
-  <tr>
-    <th colspan="4"><b>Desafios</b></th>
-  </tr>
-</thead>
 <tbody>
   <tr>
     <td><a target="_blank" href="https://luizfranzon.github.io/rocketseat-discover/desafios/Desafio%20HTML/01nav.html">Desafios HTML</a> ✔️</td>
