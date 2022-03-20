@@ -13,7 +13,7 @@ O <a href="https://app.rocketseat.com.br/discover">Discover</a> é uma módulo d
 <tbody>
   <tr>
     <td><a target="_blank" href="https://luizfranzon.github.io/rocketseat-discover/desafios/Desafio%20HTML/01nav.html">Desafios HTML</a> ✔️</td>
-    <td><a target="_blank" href="https://luizfranzon.github.io/rocketseat-discover/desafios/Social%20Tree/index.html">Social Tree</a>✔️</td>
+    <td><a target="_blank" href="https://luizfranzon.github.io/rocketseat-discover/desafios/Social%20Tree/index.html">Social Tree</a> ✔️</td>
     <td>Rocket NFTs</td>
     <td>Login Form CSS</td>
   </tr>
