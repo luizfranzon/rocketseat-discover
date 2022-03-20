@@ -4,19 +4,10 @@ O <a href="https://app.rocketseat.com.br/discover">Discover</a> é uma módulo d
 
 ### Desafios Concluidos 2/16
 
-- <a target="_blank" href="https://luizfranzon.github.io/rocketseat-discover/desafios/Desafio%20HTML/01nav.html">**Desafios HTML**</a> ✔️ - **Theme Switcher**
-- <a target="_blank" href="https://luizfranzon.github.io/rocketseat-discover/desafios/Social%20Tree/index.html">**Social Tree**</a> ✔️ - **Rocketcard**
-- **RocketCoffee** - **Rocketflix**
-- **RocketBlog** - **Página de Receita**
-- **Rocket NFTs** - **RocketNews**
-- **RocketShoes** - **Sidebar**
-- **Login Form CSS** - **Countdown**
-- **Pricing Table** - **Portfolio**
-
 <table>
 <thead>
   <tr>
-    <th colspan="4">Desafios</th>
+    <th colspan="4"><b>Desafios</b></th>
   </tr>
 </thead>
 <tbody>
