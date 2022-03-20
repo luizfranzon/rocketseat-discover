@@ -13,7 +13,7 @@ O <a href="https://app.rocketseat.com.br/discover">Discover</a> é uma módulo d
 - **Login Form CSS** - **Countdown**
 - **Pricing Table** - **Portfolio**
 
-| dwd | wdwd | wdwd | dwdwd |
+| dwd   wdwd   wdwd   dwdwd |
 |-----|------|------|-------|
 |     |      |      |       |
 |     |      |      |       |
