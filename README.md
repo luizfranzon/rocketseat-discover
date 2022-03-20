@@ -13,11 +13,39 @@ O <a href="https://app.rocketseat.com.br/discover">Discover</a> é uma módulo d
 - **Login Form CSS** - **Countdown**
 - **Pricing Table** - **Portfolio**
 
-| dwd   wdwd   wdwd   dwdwd |
-|-----|------|------|-------|
-|     |      |      |       |
-|     |      |      |       |
-|     |      |      |       |
+<table>
+<thead>
+  <tr>
+    <th colspan="4">Desafios</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Desafios HTML</td>
+    <td>RocketCoffee</td>
+    <td>Rocket NFTs</td>
+    <td>Login Form CSS</td>
+  </tr>
+  <tr>
+    <td>Theme Switcher</td>
+    <td>Rocketflix</td>
+    <td>RocketNews</td>
+    <td>Countdown</td>
+  </tr>
+  <tr>
+    <td>Social Tree</td>
+    <td>RocketBlog</td>
+    <td>RocketShoes</td>
+    <td>Pricing Table</td>
+  </tr>
+  <tr>
+    <td>Rocketcard</td>
+    <td>Página de Receita</td>
+    <td>Sidebar</td>
+    <td>Portfolio</td>
+  </tr>
+</tbody>
+</table>
 
 
 
