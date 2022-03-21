@@ -1,0 +1,97 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    background-color: #EAEAEA;
+}
+
+h1 {
+    margin: 80px 0px 15px 0px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1080px;
+    margin: auto auto;
+
+    border-radius: 8px;
+    margin-top: 50px;
+
+    background-color: white;
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+.textao {
+    text-align: center;
+}
+
+.titulo2 {
+    margin: 35px;
+}
+
+.titulo3 {
+    margin-top: 20px;
+}
+
+.imagem {
+    border-radius: 10px;
+    width: 1000px;
+    height: 300px;
+    object-fit: cover;
+
+}
+
+.lista1 {
+    width: 965px;
+    display: flex;
+    flex-direction: column;
+}
+
+.lista2 {
+    width: 965px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ingrediente {
+    text-align: left;
+}
+
+figcaption {
+    font-size: 12px;
+    text-align: right;
+}
+
+.infoadic {
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+}
+
+.infotitulo {
+    margin-top: 45px;
+}
+
+.text-infoadic {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.rocketseat {
+    margin-top: 80px;
+    margin-bottom: 20px;
+    text-align: center;
+}
