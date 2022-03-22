@@ -36,7 +36,7 @@ O <a href="https://app.rocketseat.com.br/discover">Discover</a> é uma módulo d
 <table>
     <thead>
         <tr>
-            <th colspan="2">Outros Desafios</th>
+            <th>Outros Desafios</th>
         </tr>
     </thead>
     <tbody>
