@@ -4,6 +4,27 @@ O <a href="https://app.rocketseat.com.br/discover">Discover</a> é uma módulo d
 
 ### Desafios Concluidos: 3/16
 
+
+
+
+<table>
+  <thead>
+  <tr>
+    <th colspan="2">Outros Desafios</th>
+  </tr>
+</thead>
+<tbody>
+    <tr>
+        <td><a href="https://luizfranzon.github.io/rocketseat-login-UI_Clone/site.html">Rocketseat Login Clone</a></td>
+        <td><a href="https://github.com/luizfranzon/rocketseat-login-UI_Clone">Repositório</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://luizfranzon.github.io/Codar-DevChallenge/meu_projeto/index.html">Codar Landing Page</a></td>
+      <td><a href="https://github.com/luizfranzon/Codar-DevChallenge">Repositório</a></td>
+    <tr>
+</tbody>
+</table>
+
 <table>
 <tbody>
   <tr>
@@ -30,25 +51,6 @@ O <a href="https://app.rocketseat.com.br/discover">Discover</a> é uma módulo d
     <td>Sidebar</td>
     <td>Portfolio</td>
   </tr>
-</tbody>
-</table>
-
-
-<table>
-  <thead>
-  <tr>
-    <th colspan="2">Outros Desafios</th>
-  </tr>
-</thead>
-<tbody>
-    <tr>
-        <td><a href="https://luizfranzon.github.io/rocketseat-login-UI_Clone/site.html">Rocketseat Login Clone</a></td>
-        <td><a href="https://github.com/luizfranzon/rocketseat-login-UI_Clone">Repositório</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://luizfranzon.github.io/Codar-DevChallenge/meu_projeto/index.html">Codar Landing Page</a></td>
-      <td><a href="https://github.com/luizfranzon/Codar-DevChallenge">Repositório</a></td>
-    <tr>
 </tbody>
 </table>
 
