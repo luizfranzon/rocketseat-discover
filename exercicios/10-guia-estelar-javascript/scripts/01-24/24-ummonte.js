@@ -2,7 +2,7 @@
 
 let array1 = ["HTML","CSS","JS"]
 
-//Item ao fim da array
+//Item ao fim da Array
 array1.push("NODEJs")
 
 //Adicionar no começo da Array
