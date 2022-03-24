@@ -1,5 +1,5 @@
-let robot = new String("Luiz")
+let robot = new String("Luiz");
 
-console.log(robot)
+console.log(robot);
 
 //String {'Luiz'}

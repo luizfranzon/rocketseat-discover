@@ -1,10 +1,9 @@
-let number = 1
+let number = 1;
 
 //Unary
-number++
+number++;
 
 //Binary
-number = number + 1
+number = number + 1;
 
 //Ternary
-(true) ? 'true' : 'false'
