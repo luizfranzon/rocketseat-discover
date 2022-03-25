@@ -1,7 +1,6 @@
 //Celsius to Fahrenheit
 
 function transformDegree(degree) {
-    
     const celsiusExist = degree.toUpperCase().includes("C");
     const fahrenheitExist = degree.toUpperCase().includes("F");
 

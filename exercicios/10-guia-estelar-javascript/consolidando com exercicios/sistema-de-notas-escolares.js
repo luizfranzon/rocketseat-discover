@@ -2,7 +2,7 @@
 
 function getGradeByLetter(notaEmNumeros) {
     let notaFinal;
-    notaEmNumeros = notaEmNumeros ? notaEmNumeros : 0
+    notaEmNumeros = notaEmNumeros ? notaEmNumeros : 0;
 
     if (notaEmNumeros >= 90 && notaEmNumeros <= 100) {
         notaFinal = "A";
@@ -13,13 +13,12 @@ function getGradeByLetter(notaEmNumeros) {
     } else if (notaEmNumeros >= 60 && notaEmNumeros <= 69) {
         notaFinal = "D";
     } else if (notaEmNumeros < 60 && notaEmNumeros >= 0) {
-        notaFinal = "F"
+        notaFinal = "F";
     } else {
-        notaFinal = "Nota inválida. (Apenas de 0 a 100)"
+        notaFinal = "Nota inválida. (Apenas de 0 a 100)";
     }
 
-    return notaFinal
+    return notaFinal;
 }
 
-console.log(getGradeByLetter())
-
+console.log(getGradeByLetter());
