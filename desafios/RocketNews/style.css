@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* 
+
+#121214
+#8257E5
+#08C05E
+#A8A8A8
+
+
+ */
+
+body {
+    background: url(assets/read_news.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.main {
+    background-color: #121214;
+    height: 100vh;
+    width: 50vw;
+}
+
+.logo {
+    width: 500px;
+    margin: 50px 25px;
+    margin-bottom: 100px;
+}
+
+.text-section {
+    margin-bottom: 60px;
+}
+
+.text-section,
+.email-section {
+    margin-left: 30px;
+}
+
+.main-text {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 700;
+    color: #08c05e;
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.startday-text {
+    font-family: Spartan, sans-serif;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.about-text {
+    font-family: Spartan, sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.insert-email {
+    color: #a8a8a8;
+    font-family: Spartan, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.letmeread {
+    font-weight: 700;
+    margin-left: 30px;
+}
+
+.letmeread-text {
+    color: #8257e5;
+    font-weight: 700;
+    font-family: Spartan, sans-serif;
+}
+
+.letmeread-all {
+    display: flex;
+    align-items: center;
+}
+
+.img-letmeread {
+    margin-left: 10px;
+    filter: invert(36%) sepia(34%) saturate(2294%) hue-rotate(231deg)
+        brightness(100%) contrast(88%);
+}
+
+.form {
+    display: flex;
+    width: 1300px;
+    margin-bottom: 30px;
+}
+
+.green-line {
+    background-color: #04d361;
+    width: 10px;
+}
+
+.email-input {
+    font-size: 18px;
+    width: 1050px;
+    font-family: "Work Sans", sans-serif;
+    padding: 20px;
+    border: none;
+    outline: none;
+}
+
+.button {
+    background-color: #8257e5;
+    border: none;
+    width: 60px;
+    cursor: pointer;
+}
+
+.sendicon {
+    filter: invert(97%) sepia(97%) saturate(12%) hue-rotate(197deg)
+        brightness(104%) contrast(104%);
+}
