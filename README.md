@@ -33,22 +33,6 @@ O <a href="https://app.rocketseat.com.br/discover">Discover</a> é uma módulo d
 </tbody>
 </table>
 
-<table>
-    <thead>
-        <tr>
-            <th colspan="2">Outros Desafios</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td><a href="https://luizfranzon.github.io/rocketseat-login-UI_Clone/site.html">Rocketseat Login</a></td>
-        </tr>
-        <tr>
-            <td><a href="https://luizfranzon.github.io/Codar-DevChallenge/meu_projeto/index.html">Codar</a></td>
-        </tr>
-    </tbody>
-</table>
-
 **#NeverStopLearning**
 
 
