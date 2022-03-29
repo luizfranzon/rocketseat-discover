@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style01.css">
+    <title>Seletores</title>
+
+    <style>
+        /* elemento */
+        p {
+        color: blueviolet;
+        }
+
+        /* classe */
+        .class {
+            color: blue;
+        }
+
+        /* id */
+        #id {
+            color: aqua;
+        }
+
+        /* atributo */
+        [title] {
+            color: chocolate;
+        }
+
+        /* multiplos elementos */
+        .a01, .a02 {
+            font-weight: bold;
+        }
+
+        /* pseudo classe */
+        :hover {
+            color: red;
+        }
+
+    </style>
+
+</head>
+<body>
+    <h1 class="class">Titulo da página .class</h1>
+    <p>paragrafo sem id nem .classe .p</p>
+    <p id="id">Paragrafo por #ID</p>
+    <p title="">paragrafo com atributos [title]</p>
+    <p class="a01">CLASS-01 agrupamento de classes</p>
+    <p class="a02">CLASS-02 agrupamento de classes</p>
+</body>
+</html>
