@@ -5,35 +5,32 @@ O <a href="https://app.rocketseat.com.br/discover">Discover</a> é uma módulo d
 ### Desafios Concluídos: 4/16
 
 <table>
-<tbody>
-  <tr>
-    <td><a target="_blank" href="https://luizfranzon.github.io/rocketseat-discover/desafios/Desafio%20HTML/01nav.html">Desafios HTML</a> ✔️</td>
-    <td><a target="_blank" href="https://luizfranzon.github.io/rocketseat-discover/desafios/Social%20Tree/index.html">Social Tree</a> ✔️</td>
-    <td><a target="_blank" href="https://luizfranzon.github.io/rocketseat-discover/desafios/P%C3%A1gina%20de%20Receitas/index.html">Página de Receita</a> ✔️</td>
-    <td><a target="_blank" href="https://luizfranzon.github.io/rocketseat-discover/desafios/RocketNews/index.html">RocketNews</a> ✔️</td> 
-  </tr>
-  <tr>
-    <td>Theme Switcher</td>
-    <td>Rocketflix</td>
-    <td>Login Form CSS</td>
-    <td>Countdown</td>
-  </tr>
-  <tr>
-    <td>RocketCoffee</td>
-    <td>RocketBlog</td>
-    <td>RocketShoes</td>
-    <td>Pricing Table</td>
-  </tr>
-  <tr>
-    <td>Rocketcard</td>
-    <td>Rocket NFTs</td>
-    <td>Sidebar</td>
-    <td>Portfolio</td>
-  </tr>
-</tbody>
+    <tbody>
+        <tr>
+            <td><a target="_blank" href="https://luizfranzon.github.io/rocketseat-discover/desafios/Desafio%20HTML/01nav.html">Desafios HTML</a> ✔️</td>
+            <td><a target="_blank" href="https://luizfranzon.github.io/rocketseat-discover/desafios/Social%20Tree/index.html">Social Tree</a> ✔️</td>
+            <td><a target="_blank" href="https://luizfranzon.github.io/rocketseat-discover/desafios/P%C3%A1gina%20de%20Receitas/index.html">Página de Receita</a> ✔️</td>
+            <td><a target="_blank" href="https://luizfranzon.github.io/rocketseat-discover/desafios/RocketNews/index.html">RocketNews</a> ✔️</td> 
+        </tr>
+        <tr>
+            <td>Theme Switcher</td>
+            <td>Rocketflix</td>
+            <td>Login Form CSS</td>
+            <td>Countdown</td>
+        </tr>
+        <tr>
+            <td>RocketCoffee</td>
+            <td>RocketBlog</td>
+            <td>RocketShoes</td>
+            <td>Pricing Table</td>
+        </tr>
+        <tr>
+            <td>Rocketcard</td>
+            <td>Rocket NFTs</td>
+            <td>Sidebar</td>
+            <td>Portfolio</td>
+        </tr>
+    </tbody>
 </table>
 
 **#NeverStopLearning**
-
-
-
