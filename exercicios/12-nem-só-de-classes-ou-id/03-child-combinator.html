@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Child Combinator</title>
+
+        <style>
+            ul > ul > li {
+                color: blue;
+            }
+            body > ul > li {
+                color: red;
+            }
+        </style>
+    </head>
+    <body>
+        <ul>
+            <li>Primeiro li</li>
+            <ul>
+                <li>li dentro de outra ul</li>
+            </ul>
+        </ul>
+    </body>
+</html>
