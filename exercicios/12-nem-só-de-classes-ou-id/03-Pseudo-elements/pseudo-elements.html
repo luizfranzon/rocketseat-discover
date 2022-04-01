@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-Elements</title>
+
+    <style>
+        p::after {
+            content: " ::AFTER";
+            color: blue;
+        }
+
+        p::before {
+            content: "::BEFORE ";
+            color: red;
+        }
+
+        p::first-line {
+            content: "";
+            font-weight: bold;
+        }
+    </style>
+
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore assumenda, sapiente laudantium rem nihil architecto ratione veritatis veniam, non eius unde? Minima molestias vel consequatur, similique hic facere repellat facilis!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam reiciendis labore tempore quos sunt aut iusto neque excepturi ab exercitationem animi expedita vel, rerum voluptatum quae pariatur consequuntur, nesciunt maxime.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, quidem! Sed ratione qui molestiae sapiente aut esse aspernatur, reiciendis, tempora natus rerum quos eos quisquam perferendis culpa nostrum aperiam eligendi.</p>
+</body>
+</html>
