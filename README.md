@@ -13,14 +13,14 @@ O <a href="https://app.rocketseat.com.br/discover">Discover</a> é uma módulo d
             <td><a target="_blank" href="https://luizfranzon.github.io/rocketseat-discover/desafios/RocketNews/index.html">RocketNews</a> ✔️</td> 
         </tr>
         <tr>
-            <td>Theme Switcher</td>
+            <td>RocketBlog</td>
             <td>Rocketflix</td>
             <td>Login Form CSS</td>
             <td>Countdown</td>
         </tr>
         <tr>
             <td>RocketCoffee</td>
-            <td>RocketBlog</td>
+            <td>Theme Switcher</td>
             <td>RocketShoes</td>
             <td>Pricing Table</td>
         </tr>
