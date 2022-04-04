@@ -18,6 +18,8 @@ body {
     align-items: center;
     gap: 50px;
 
+    width: 100%;
+
     background-color: #290742;
 }
 
@@ -26,7 +28,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    gap: 150px;
+    gap: 172px;
 
     padding: 30px;
 }
@@ -36,6 +38,8 @@ body {
     font-weight: bolder;
     color: white;
     font-size: 38px;
+
+    cursor: pointer;
 }
 
 .green-dot {
@@ -77,6 +81,8 @@ nav ul {
     border: none;
     padding: 5px 20px;
     border-radius: 0px 5px 5px 0px;
+
+    cursor: pointer;
 }
 
 .search-section input {
@@ -95,9 +101,9 @@ nav ul {
 }
 
 .green-bar {
-    width: 100vw;
+    width: 100%;
     background-color: #4fff4b;
-    height: 5px;
+    height: 8px;
 }
 
 .featured-post-section {
@@ -107,7 +113,7 @@ nav ul {
     width: 1130px;
     gap: 80px;
 
-    margin-bottom: 50px;
+    margin-bottom: 70px;
 }
 
 .featured-post-text {
@@ -155,11 +161,10 @@ nav ul {
     flex-direction: row;
     align-items: flex-start;
     justify-content: center;
+
+    gap: 50px;
 }
 
-.main-up-left {
-    width: 650px;
-}
 .main-up-right {
     width: 500px;
 }
@@ -180,6 +185,8 @@ nav ul {
     font-weight: bolder;
     color: #290742;
     font-size: 22px;
+
+    cursor: pointer;
 }
 
 .main-post-text {
@@ -200,6 +207,7 @@ nav ul {
 
 .main-left-img {
     width: 600px;
+    cursor: pointer;
 }
 
 .main-bottom {
@@ -208,6 +216,7 @@ nav ul {
     display: flex;
     justify-content: center;
     gap: 50px;
+
 }
 
 .bottom-post {
@@ -215,8 +224,11 @@ nav ul {
     flex-direction: column;
     justify-content: center;
     width: 350px;
+
+    cursor: pointer;
 }
 .bottom-post img {
-    width: 380px;
+    width: 350px;
     margin-bottom: 8px;
 }
+
