@@ -10,21 +10,24 @@
         .box {
             display: flex;
             flex-direction: row;
-            justify-content: center;
-
             border: 1px dashed red;
         }
 
         .box div {
             text-align: center;
             border: 1px solid;
-            flex-basis: 25%;
+            flex-basis: 80px;
+            /* Flex-basis muda o tamanho dos elementos dentro da caixa em relação ao eixo principal */
             
         }
+        
     </style>
 
 </head>
 <body>
+    <h1 align="center">
+        Flex-Basis
+    </h1>
     <div class="box">
         <div>A</div>
         <div>B</div>
