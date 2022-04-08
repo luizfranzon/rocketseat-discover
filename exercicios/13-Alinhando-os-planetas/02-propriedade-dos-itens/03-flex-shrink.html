@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex-Shrink</title>
+    <style>
+
+        .box {
+            display: flex;
+            border: 1px dashed red;
+        }
+
+        .box div {
+            text-align: center;
+            border: 1px solid;
+            flex-basis: 150px;
+            flex-shrink: 1;
+        }
+
+        .box div:nth-child(1) {
+            flex-shrink: 2;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div>A</div>
+        <div>B</div>
+        <div>C</div>
+        <div>D</div>
+    </div>
+</body>
+</html>
