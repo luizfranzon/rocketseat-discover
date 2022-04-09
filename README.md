@@ -14,7 +14,7 @@ O <a href="https://app.rocketseat.com.br/discover">Discover</a> é uma módulo d
         </tr>
         <tr>
             <td><a href="https://luizfranzon.github.io/rocketseat-discover/desafios/rocketBlog/index.html">RocketBlog</a> ✔️</td>
-            <td>Rocketflix</td>
+            <td><a href="https://luizfranzon.github.io/rocketseat-discover/desafios/Pricing%20Table/index.html">Pricing Table ✔️</a></td>
             <td>Login Form CSS</td>
             <td>Countdown</td>
         </tr>
@@ -22,7 +22,7 @@ O <a href="https://app.rocketseat.com.br/discover">Discover</a> é uma módulo d
             <td>RocketCoffee</td>
             <td>Theme Switcher</td>
             <td>RocketShoes</td>
-            <td>Pricing Table</td>
+            <td>Rocketflix </td>
         </tr>
         <tr>
             <td>Rocketcard</td>
