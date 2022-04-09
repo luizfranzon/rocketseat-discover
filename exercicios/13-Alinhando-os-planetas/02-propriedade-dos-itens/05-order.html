@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order</title>
+
+    <style>
+
+        .box {
+            display: flex;
+            border: 1px dashed red;
+        }
+
+        .box div {
+            text-align: center;
+            border: 1px solid;
+            flex-basis: 30px;
+            flex-grow: 1;
+        }
+
+        .box div:nth-child(1) {
+            order: 180;
+
+        }
+        .box div:nth-child(2) {
+            order: 50;
+            
+        }
+        .box div:nth-child(3) {
+            order: -60;
+            
+        }
+        .box div:nth-child(4) {
+            order: 0;
+            
+        }
+        
+    </style>
+
+</head>
+<body>
+    <div class="box">
+        <div>180</div>
+        <div>50</div>
+        <div>-60</div>
+        <div>0</div>
+    </div>
+</body>
+</html>
