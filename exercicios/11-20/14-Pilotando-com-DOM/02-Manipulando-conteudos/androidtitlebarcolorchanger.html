@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta name="theme-color" content=" #13111c"/> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            justify-content: center;
+            align-items: center;
+            height: 90vh;
+        }
+
+        button {
+            height: 50px;
+            width: 150px;
+        }
+    </style>
+
+</head>
+<body>
+    <button class="butt" onclick="changeColor()">Purple</button>
+    <button class="butt" onclick="changeColorblue()">Blue</button>
+    <button class="butt" onclick="changeColorred()">Red</button>
+    <button class="butt" onclick="changeColororange()">Orange</button>
+    <button class="butt" onclick="changeColorgreen()">Green</button>
+    <button class="butt" onclick="changeColorblack()">Black</button>
+</body>
+
+<script>
+    const element = document.querySelector("meta")
+    const button1 = document.getElementsByClassName("butt")
+    console.log(button1)
+
+    function changeColor() {
+        element.setAttribute('content', '#9234eb')
+    }
+    function changeColorblue() {
+        element.setAttribute('content', 'blue')
+    }
+    function changeColorred() {
+        element.setAttribute('content', 'red')
+    }
+    function changeColororange() {
+        element.setAttribute('content', 'orange')
+    }
+    function changeColorgreen() {
+        element.setAttribute('content', 'green')
+    }
+    function changeColorblack() {
+        element.setAttribute('content', 'black')
+    }
+
+    document.title = "Android titlebar color"
+</script>
+</html>
