@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Cores</h1>
+    <p>Cor: <span></span></p>
+    <input type="text" id="color" placeholder="Insira uma cor"><br>
+    <button onclick="changeColor()">Change Color</button>
+    <button onclick="reset()">reset</button>
+</body>
+
+<script>
+    const title = document.getElementsByTagName("h1")[0]
+    
+    
+
+    function changeColor() {
+        let colorName = document.getElementsByTagName("span")[0]
+        let color = document.getElementById("color").value
+        colorName.innerText = color
+        color = 'color: ' + color
+        title.setAttribute('style', color)
+
+        console.log("cor mudada")
+        console.log(color)
+    }
+
+    function reset() {
+        let colorName = document.getElementsByTagName("span")[0]
+        title.removeAttribute('style')
+        colorName.innerText = "cor padrão aplicada"
+    }
+
+
+</script>
+</html>
