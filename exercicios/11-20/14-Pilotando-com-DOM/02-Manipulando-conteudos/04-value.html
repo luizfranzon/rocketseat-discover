@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Insira seu nome</h1>
+    <input type="text" name="" id="name" value="Valdir Braz"><br>
+    <button onclick="cleaner()">Limpar</button>
+    <p style="display: inline;">VALOR ANTERIOR:</p> <span></span>
+</body>
+
+<script>
+    const input1 = document.getElementById("name")
+    const elemente = document.querySelector("span")
+    
+    function cleaner() {
+        elemente.textContent = input1.value
+        input1.value = ""
+    }
+
+</script>
+</html>
