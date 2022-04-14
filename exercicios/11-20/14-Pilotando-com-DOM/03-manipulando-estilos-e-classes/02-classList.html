@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .toggle::after {
+            content: " .after";
+        }
+
+        .green {
+            background-color: green;
+        }
+
+        .blue {
+            color: blue;
+        }
+    </style>
+
+</head>
+<body>
+    <h1 class="blue">Poggers</h1>
+</body>
+
+    <script>
+        const element = document.querySelector("h1")
+
+        element.classList.add("green")
+
+        element.classList.remove("blue")
+
+        element.classList.toggle("toggle")
+        element.classList.toggle("toggle")
+        element.classList.toggle("toggle")
+        
+    </script>
+
+</html>
