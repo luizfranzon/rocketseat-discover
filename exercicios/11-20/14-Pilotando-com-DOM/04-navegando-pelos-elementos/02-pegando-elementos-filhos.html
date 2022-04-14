@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Titulo</h1>
+        <h2>Sub</h2>
+    </header>
+
+    <script>
+        const body = document.querySelector("body")
+
+        console.log(body.childNodes)        //Leva o espaço vazio em consideração!
+        console.log(body.children)
+
+        console.log(body.firstChild)        //Leva o espaço vazio em consideração!
+        console.log(body.firstElementChild)
+
+        console.log(body.lastChild)         //igual
+        console.log(body.lastElementChild)  //igual
+
+    </script>
+</body>
+</html>
