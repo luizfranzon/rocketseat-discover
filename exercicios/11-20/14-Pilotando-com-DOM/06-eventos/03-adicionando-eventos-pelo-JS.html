@@ -11,11 +11,15 @@
     <script>
         const title = document.querySelector("h1")
 
-        title.addEventListener('copy', print)
+        title.addEventListener('click', print)
 
         function print() {
             console.log("simsim")
         }
+
+        title.addEventListener('mouseover', function() {
+            console.log("simsim2")
+        })
     </script>
 </body>
 </html>
