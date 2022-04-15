@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>createElement Append e preprend</title>
+</head>
+<body> <!--Prepend-> Vai ser adicionado depois disso -->
+    <header>
+        <h1>Blog</h1>
+    </header>
+
+    <script>
+
+        //Create Element
+        const createdElement = document.createElement("h2")
+        const createdElement2 = document.createElement("h2")
+        createdElement.innerText = "Fui criado pelo JavaScript :)"
+        createdElement2.innerText = "Também Fui criado pelo JavaScript :)"
+
+        //Selecting body and appending the new Created element
+        const body = document.querySelector("body")
+        body.prepend(createdElement)
+        body.append(createdElement2)
+        
+
+    </script>
+
+    <!--Append -> Vai ser adicionado depois disso -->
+</body>
+</html>
