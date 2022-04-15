@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+
+</head>
+<body class="h-screen bg-purple-100 flex flex-col items-center justify-center">
+
+    <button
+        id="openModal"
+        class="bg-purple-700 text-white py-2 px-4 rounded"> 
+        Abrir Janela
+    </button>
+
+    <div class="modal-wrapper invisible fixed bg-gray-500 w-screen h-screen flex items-center justify-center">
+        <div class="p-8 bg-white text-center rounded">
+            Tecle ESC para fechar
+        </div>
+    </div>
+
+    <script>
+        const button = document.getElementById("openModal")
+        const modal = document.querySelector("div")
+        const body = document.querySelector("body")
+
+        button.onclick = function() {
+            modal.classList.remove("invisible")
+        }
+
+        body.onkeydown = function(event) {
+            console.log(event)
+            if (event.key == "Escape") {
+                modal.classList.add("invisible")
+            }
+        }
+
+    </script>
+</body>
+</html>
