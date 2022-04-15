@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header style="background-color: aqua;">
+        <h1>Meu blog</h1>
+    </header>
+
+    <h2 style="background-color: orange;">terceiro</h2>
+
+    <script>
+        //Creating an Element ->
+        const createdElement = document.createElement("p")
+        createdElement.innerText = "Paragrafo criado"
+
+        const header = document.querySelector("header")
+
+        header.prepend(createdElement)
+
+
+    </script>
+</body>
+</html>
