@@ -15,14 +15,14 @@ O <a href="https://app.rocketseat.com.br/discover">Discover</a> é uma módulo d
         <tr>
             <td><a href="https://luizfranzon.github.io/rocketseat-discover/desafios/rocketBlog/index.html">RocketBlog</a> ✔️</td>
             <td><a href="https://luizfranzon.github.io/rocketseat-discover/desafios/Pricing%20Table/index.html">Pricing Table ❗</a></td>
-            <td>Login Form CSS</td>
+            <td><a href="https://luizfranzon.github.io/rocketseat-discover/desafios/Rocketflix/index.html">Rocketflix</a> ✔️</td>
             <td>Countdown</td>
         </tr>
         <tr>
             <td>RocketCoffee</td>
             <td>Theme Switcher</td>
             <td>RocketShoes</td>
-            <td>Rocketflix </td>
+            <td>Login Form CSS</td>
         </tr>
         <tr>
             <td>Rocketcard</td>
