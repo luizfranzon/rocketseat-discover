@@ -15,7 +15,7 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
-div {
+.main {
     padding-top: 100px;
     display: flex;
     justify-content: center;
@@ -54,4 +54,16 @@ button:hover {
 .button-instruction {
     color: white;
     text-align: center;
+}
+
+.movieInfos {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: flex-start;
+
+    width: 700px;
+    margin-bottom: 40px;
+
+    color: white;
 }
