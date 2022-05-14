@@ -22,6 +22,10 @@ body {
     
 }
 
+.header-logo {
+    margin-right: 10rem;
+}
+
 .nav-ul {
     gap: 3.2rem;
 }
@@ -58,7 +62,11 @@ body {
     text-transform: uppercase;
     font-weight: 800;
     color: white;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.header-button:hover {
+    color: red;
 }
 
 main {
@@ -82,7 +90,10 @@ main {
 }
 
 .coffees {
-    width: 80rem;
+    position: fixed;
+    bottom: 0;
+
+    width: 90rem;
 }
 
 .blur {
@@ -97,4 +108,16 @@ main {
 .right {
     top: -30%;
     left: 70%;
+}
+
+.blur-bottom {
+    position: fixed;
+    bottom: 0%;
+    left: -5%;
+}
+
+.blur-up {
+    position: fixed;
+    top: -5%;
+    right: 0%;
 }
