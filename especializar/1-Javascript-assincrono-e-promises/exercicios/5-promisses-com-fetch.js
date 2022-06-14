@@ -1,0 +1,6 @@
+fetch("https://api.github.com/users/luizfranzon")
+    .then(response => response.json())
+    .then(data => fetch(data.repos_url))
+    .then(response => response.json())
+    .then(data => console.log(data))
+    .catch(error => console.log(error))
