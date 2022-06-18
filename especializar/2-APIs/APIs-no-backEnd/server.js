@@ -3,8 +3,6 @@ const app = express()
 
 let author = "Luiz"
 
-app.listen(3000)
-
 app.use(express.json())
 
 app.route('/').get((req, res) => res.send("oie!"))
@@ -19,3 +17,12 @@ app.route("/delete").delete((req, res) => {
     author = ""
     res.send("apagado!")
 })
+
+app.route("/bparam").post( (req, res) => {
+    const { nome, cidade } = req.body
+    res.send(`Olá, ${nome}. Bem vindo à ${cidade}`)
+})
+
+app.listen(3000)
+console.log("Servidor rodando em: http://localhost:3000")
+
