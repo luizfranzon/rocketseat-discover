@@ -1,12 +1,12 @@
 {
-  "name": "project",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "keywords": [],
-  "author": "Luiz",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.18.1"
-  }
+    "name": "project",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "keywords": [],
+    "author": "Luiz",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.18.1"
+    }
 }
