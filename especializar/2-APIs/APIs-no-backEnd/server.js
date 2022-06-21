@@ -23,6 +23,11 @@ app.route("/bparam").post( (req, res) => {
     res.send(`Olá, ${nome}. Bem vindo à ${cidade}`)
 })
 
+app.route("/api/:number").get( (req, res ) => {
+    const { number } = req.params
+    res.send(`O número é ${number}`)
+})
+
 app.listen(3000)
 console.log("Servidor rodando em: http://localhost:3000")
 
