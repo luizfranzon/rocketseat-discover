@@ -28,6 +28,10 @@ app.route("/api/:number").get( (req, res ) => {
     res.send(`O número é ${number}`)
 })
 
+app.route("userid").get((req, res) => {
+    res.send(req.query)
+})
+
 app.listen(3000)
 console.log("Servidor rodando em: http://localhost:3000")
 
