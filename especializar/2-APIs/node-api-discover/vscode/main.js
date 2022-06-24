@@ -9,7 +9,7 @@ function getUsers() {
     .catch()
 }
 
-const newUser = {
+let newUser = {
     name: "Luiz",
     avatar: "https://picsum.photos/300",
     city: "São Paulo"
@@ -21,3 +21,14 @@ function addNewUser() {
     .catch(error => console.error(error))
 }
 
+const deleteData = () => {
+    axios.get(url)
+    .then(response => {
+        const data = response.data.users
+        data.map(user => {
+            axios.delete(`${url}/${user.id}`)
+            console.log(`${url}/${user}`)
+            apiResult.textContent = ""
+        })
+    })
+}

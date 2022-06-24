@@ -33,8 +33,22 @@ app.route('/api/:id').get((req, res) => {
   res.json(user)
 })
 
+app.route('/bug').get((req, res) => {
+    res.json("User length: " + users.length)
+})
+
 app.route('/api').post((req, res) => {
-  const lastId = users[users.length - 1].id
+
+    let lastId;
+
+    if (users.length == 0) {
+        lastId = 0
+    } else (
+        lastId = users[users.length - 1].id
+    )
+    
+  console.log(typeof lastId)
+
   users.push({
     id: lastId + 1,
     name: req.body.name,
