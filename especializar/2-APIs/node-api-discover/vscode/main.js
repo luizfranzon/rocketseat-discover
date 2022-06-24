@@ -9,8 +9,6 @@ function getUsers() {
     .catch()
 }
 
-getUsers()
-
 const newUser = {
     name: "Luiz",
     avatar: "https://picsum.photos/300",
@@ -23,4 +21,3 @@ function addNewUser() {
     .catch(error => console.error(error))
 }
 
-// addNewUser()
