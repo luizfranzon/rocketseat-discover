@@ -1,9 +1,11 @@
-import { useState } from 'react'
-
 function Home() {
 
     return (
-        <h1>Lista de Presença</h1>
+        <div>
+            <h1>Lista de Presença</h1>
+            <input type="text" placeholder="nome do usuário"/>
+            <button>Adicionar usuários</button>
+        </div>
     )
 }
 
