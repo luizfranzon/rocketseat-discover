@@ -11,3 +11,7 @@ body, input, button {
     font-family: "Roboto", sans-serif;
     -webkit-font-smoothing: antialiased;
 }
+
+body {
+    background-color: #202024;
+}
