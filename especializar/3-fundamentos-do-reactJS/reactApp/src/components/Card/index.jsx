@@ -1,7 +1,7 @@
 import "./style.css"
 
 function Card(props) {
-    return(
+    return (
         <div className="card">
             <strong>{props.name}</strong>
             <span>{props.time}</span>

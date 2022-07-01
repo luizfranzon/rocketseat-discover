@@ -25,15 +25,15 @@ function Home() {
 
             <h1>Lista de Presença</h1>
 
-            <input 
-                type="text" 
+            <input
+                type="text"
                 placeholder="Nome do usuário"
                 onChange={e => setStudentName(e.target.value)}
             />
             <button onClick={handleAddStudent}>Adicionar</button>
 
             {
-                students.map(student => <Card name={student.name} time={student.time}/>)
+                students.map(student => <Card name={student.name} time={student.time} />)
             }
 
         </div>
