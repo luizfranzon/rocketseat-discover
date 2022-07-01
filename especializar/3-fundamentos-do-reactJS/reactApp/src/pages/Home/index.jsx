@@ -23,8 +23,13 @@ function Home() {
     return (
         <div className="container">
 
-            <h1>Lista de Presença</h1>
-
+            <header>
+                <h1>Lista de Presença</h1>
+                <div>
+                    <strong>Luiz</strong>
+                    <img src="https://github.com/luizfranzon.png" alt="" />
+                </div>
+            </header>
             <input
                 type="text"
                 placeholder="Nome do usuário"
@@ -37,7 +42,7 @@ function Home() {
                     <Card 
                         key={student.time}
                         name={student.name} 
-                        time={student.time} 
+                        time={student.time}
                     />
                 ))
             }

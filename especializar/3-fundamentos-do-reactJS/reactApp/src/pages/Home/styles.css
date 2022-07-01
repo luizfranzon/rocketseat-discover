@@ -6,9 +6,34 @@
     flex-direction: column;
 }
 
-.container h1 {
+.container header {
+    width: 35%;
     margin: 84px 0 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.container header img {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    margin-left: 7px;
+}
+.container h1 {
     color: white;
+}
+
+.container header div {
+    display: flex;
+    align-items: center;
+}
+
+.container header div strong{
+    color: white;
+    font-size: 20px;
+    margin-right: 10px;
 }
 
 .container input {
