@@ -34,7 +34,7 @@ O <a href="https://app.rocketseat.com.br/discover">Discover</a> é uma módulo d
 </table>
 
 ### Especializar React App: 
-#### <a href="https://rocketseat-discover-react-app.vercel.app/">Lista de Presença</a>
+<a href="https://rocketseat-discover-react-app.vercel.app/">Lista de Presença</a>
 
 #### #NeverStopLearning
 
