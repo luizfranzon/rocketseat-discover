@@ -1,0 +1,114 @@
+.Sidebar {
+    background-color: #18c29c;
+
+    width: 15.625rem;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 14px;
+}
+
+.Header .MenuButton {
+    background: none;
+    border: none;
+    line-height: 1;
+
+    cursor: pointer;
+}
+
+.buttonsSection {
+    padding: 14px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.buttonsSection .searchButton {
+    background-color: #8ED7C6;
+    border: none;
+    border-radius: 12px;
+    padding: 13px;
+
+    height: 50px;
+
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+
+.searchButtonInput {
+    background: none;
+    border: none;
+    outline: none;
+    font-weight: bold;
+
+    width: 148px;
+}
+
+.searchButtonInput::placeholder {
+    color: #084236;
+}
+
+.buttonsSection .button {
+    display: flex;
+    gap: .8125rem;
+    padding: 16px;
+    cursor: pointer;
+}
+
+.Sidebar div {
+    display: flex;
+    align-items: center;
+
+}
+
+.LoggedUserSection {
+    padding: 8px 14px;
+
+    height: 3.75rem;
+    width: 100%;
+
+    background-color: #8ed7c6;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.LoggedUserSection div:first-child {
+    display: flex;
+    gap: .5625rem;
+
+}
+
+.LoggedUserSection img {
+    border-radius: 12px;
+}
+
+.LoggedUserSection .LoggedUserData  {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.LoggedUserSection .LoggedUserData p {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.LoggedUserSection .LoggedUserData span {
+    font-size: 12px;
+}
+
+.logOutButton {
+    cursor: pointer;
+}
